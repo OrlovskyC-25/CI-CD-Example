@@ -6,4 +6,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return "Hello, DevOps Students! Version 2.0"
+#A simple greeting
+    return "Hello, World! The CI/CD Pipeline worked! Version 2.0"
